@@ -8,7 +8,7 @@ Check whether adverbs are used correctly
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install git+https://github.com/af12066/textlint-rule-ieice-fukushi.git
+    npm install textlint-rule-ieice-fukushi
 
 ## Usage
 
