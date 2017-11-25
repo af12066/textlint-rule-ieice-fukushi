@@ -1,4 +1,4 @@
-message: ひらがなで表記したほうが読みやすい副詞
+message: 漢字で表記すべき副詞
 dict:
   -
     expected: 必ず
