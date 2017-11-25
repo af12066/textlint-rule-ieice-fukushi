@@ -1,14 +1,14 @@
 # textlint-rule-ja-hiragana-fukushi
 
-Check easy-to-read Fukushi(adverbs) written in Hiragana than Kanji.
+Check whether adverbs are used correctly
 
-漢字よりもひらがなで表記したほうが読みやすい副詞を指摘します。検出には形態素解析を使っています。自動修正にも対応しています。
+電子情報通信学会の論文を書くうえで副詞を正しく書かれているかチェックします。
 
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install textlint-rule-ja-hiragana-fukushi
+    npm install git+https://github.com/af12066/textlint-rule-ieice-fukushi.git
 
 ## Usage
 
@@ -17,7 +17,7 @@ Via `.textlintrc`(Recommended)
 ```json
 {
     "rules": {
-        "ja-hiragana-fukushi": true
+        "ieice-fukushi": true
     }
 }
 ```
@@ -25,13 +25,13 @@ Via `.textlintrc`(Recommended)
 Via CLI
 
 ```
-textlint --rule ja-hiragana-fukushi README.md
+textlint --rule ieice-fukushi README.md
 ```
 
 ### Fixable
 
 ```
-textlint --fix ja-hiragana-fukushi README.md
+textlint --fix ieice-fukushi README.md
 ```
 
 ### Build
@@ -94,4 +94,4 @@ Test textlint rule by [textlint-tester](https://github.com/textlint/textlint-tes
 
 ## License
 
-MIT © Hiroshi Takase
+MIT © Takuma Hashimoto
