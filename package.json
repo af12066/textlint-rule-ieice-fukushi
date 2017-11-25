@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "textlintrule"
   ],
@@ -26,7 +26,7 @@
     "type": "git",
     "url": "git+https://github.com/af12066/textlint-rule-ieice-fukushi.git"
   },
-  "author": "Takuma Hashimoto",
+  "author": "Hiroshi Takase / Takuma Hashimoto",
   "license": "MIT",
   "description": "Check whether adverbs are used correctly (based on lostandfound/textlint-rule-ja-hiragana-fukushi).",
   "dependencies": {

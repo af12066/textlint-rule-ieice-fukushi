@@ -1,4 +1,4 @@
-# textlint-rule-ja-hiragana-fukushi
+# textlint-rule-ieice-fukushi
 
 Check whether adverbs are used correctly
 
@@ -94,4 +94,4 @@ Test textlint rule by [textlint-tester](https://github.com/textlint/textlint-tes
 
 ## License
 
-MIT © Takuma Hashimoto
+mIT © Hiroshi Takase / Takuma Hashimoto
